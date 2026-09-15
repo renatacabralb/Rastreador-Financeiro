@@ -1,0 +1,21 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    border-color: #BDBDBD;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    color: #424242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grafico {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 400px;
+}
