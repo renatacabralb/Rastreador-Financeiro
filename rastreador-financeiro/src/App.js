@@ -1,6 +1,6 @@
 import logo from './logo (2).png';
 import './App.css';
-import TransactionForm from './Transactionform';
+import TransactionForm from './components/Transactionform';
 import Dashboard from './components/Dashboard';
 
 function App() {
@@ -12,7 +12,6 @@ function App() {
       </header>
       <main className="App-main">
         <Dashboard />
-        <TransactionForm />
       </main>
     </div>
   );
